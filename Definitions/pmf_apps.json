@@ -1,0 +1,55 @@
+{
+  "Bitwarden": {
+    "Desktop App": {
+      "absolute_paths": {
+        "directories": [
+          "Users/*/AppData/Roaming/Bitwarden"
+        ],
+        "files": {
+          "Bitwarden Data File": "data.json"
+        }
+      }
+    },
+    "Store App": {
+      "absolute_paths": {
+        "directories": [
+          "Users/*/AppData/Local/Packages/8bitSolutionsLLC.bitwardendesktop_*/LocalCache/Roaming/Bitwarden"
+        ],
+        "files": {
+          "Bitwarden Data File": "data.json"
+        }
+      }
+    },
+    "Portable App": {
+      "relative_paths": {
+        "directories": [
+          "bitwarden-appdata"
+        ],
+        "files": {
+          "Bitwarden Data File": "data.json"
+        }
+      }
+    }
+  },
+  "KeePass": {
+    "Desktop App": {
+      "absolute_paths": {
+        "directories": [
+          "Users/*/AppData/Roaming/KeePass"
+        ],
+        "files": {
+          "KeePass Configuration": "KeePass.config.xml"
+        }
+      },
+      "relative_paths": {
+        "directories": [
+          ""
+        ],
+        "files": {
+          "KeePass Database File": "*.kdbx",
+          "KeePass Key File": "*.keyx"
+        }
+      }
+    }
+  }
+}
