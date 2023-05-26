@@ -111,7 +111,10 @@ def get_file_artefacts(datafile: io.FileIO, r: reporter.Report) -> dict:
                 'Lowercase Letters': 'lowercase', 'Special Characters': 'special'}
         settings = dict()
         for x, y in extr.items():
-            settings.update({x: str(d[a]['settings']['passwordGenerationOptions'][y])})
+            try:
+                settings.update({x: str(d[a]['settings']['passwordGenerationOptions'][y])})
+            except KeyError:
+                continue
         r.add('Password Generator', {'Settings': settings})
 
         # History
