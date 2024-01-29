@@ -1,5 +1,5 @@
 # Password Manager Forensics (PMF)
-This repository is part of my master thesis "Password Managers in Digital Forensics". Password Manager Forensics (PMF) consists of definitions of relevant forensic artefacts that can be extracted from two password manager applications (Bitwarden and KeePass), as well as python scripts to perform said extraction.
+This repository is part of my master thesis "[Password Managers in Digital Forensics][3]". Password Manager Forensics (PMF) consists of definitions of relevant forensic artefacts that can be extracted from two password manager applications (Bitwarden and KeePass), as well as python scripts to perform said extraction.
 
 ## Preparation
 `$ pip install -r requirements.txt`
@@ -22,3 +22,4 @@ See [Definitions/bitwarden_functions.md][1] and [Definitions/keepass_functions.m
 
 [1]:https://github.com/shaehni/password-manager-forensics/blob/main/Definitions/bitwarden_functions.md
 [2]:https://github.com/shaehni/password-manager-forensics/blob/main/Definitions/keepass_functions.md
+[3]:https://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-219709
